@@ -49,7 +49,7 @@ firm_info:
 ```
 
 ## Data Dictionary
-Each CSV in `office_overture/` corresponds to a single firm and city, and contains the following fields:  
+Each CSV in `office_overture/` corresponds to a single firm and 169 metropolitan cities, and contains the following fields:  
 
 - **id_left** – Place identifier from Overture Maps   
 - **primary_name_left** – Place name from Overture Maps  

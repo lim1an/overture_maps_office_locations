@@ -1,0 +1,2 @@
+id_left,primary_name_left,primary_category,alternate_category,id_right,primary_name_right,subtype,class,source_city,region,locality,zipcode,address,latitude,longitude,plc_source_dataset,plc_source_update_time,plc_source_confidence,bldg_dataset,bldg_update_time,bldg_confidence,is_office_by_pipeline
+e3aeeea1-0f9c-43bb-acca-3f2a8ce2c634,Enphase Energy,solar_installation,"['energy_company', 'commercial_industrial']",,,,,san-jose,CA,Fremont,94538.0,47281 Bayside Pkwy,37.4732532,-121.9350615,meta,2025-06-02T07:00:00.000Z,0.9459263554653524,,,,False

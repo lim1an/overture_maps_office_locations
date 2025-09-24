@@ -1,0 +1,2 @@
+id_left,primary_name_left,primary_category,alternate_category,id_right,primary_name_right,subtype,class,source_city,region,locality,zipcode,address,latitude,longitude,plc_source_dataset,plc_source_update_time,plc_source_confidence,bldg_dataset,bldg_update_time,bldg_confidence,is_office_by_pipeline
+00934bff-fd76-4d81-aa05-344b753e7a2d,ON Semiconductor,business_manufacturing_and_supply,"['commercial_industrial', 'professional_services']",,,,,portland,OR,Gresham,97030.0,23400 NE Glisan St,45.5250382,-122.4270721,meta,2025-06-02T07:00:00.000Z,0.9459263554653524,,,,False

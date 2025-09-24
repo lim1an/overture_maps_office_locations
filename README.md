@@ -12,7 +12,7 @@ The processed data was created in three main steps:
 2. **Firm-specific filtering** – Matching potential locations using company name patterns, alternative spellings, and industry context. See configs files.  
 3. **Office classification** – Applying rule-based filters (based on industry-specific categories and keywords) to identify likely corporate office locations and exclude retail or non-office sites. See configs files.  
 
-The full raw Overture Maps datasets are not included here. Instead, we publish only the processed CSV outputs for each firm and city.
+The full raw Overture Maps datasets are not included here. Instead, we publish only the processed CSV outputs for each firm.
 
 ## Repository Structure
 
@@ -70,4 +70,4 @@ Each CSV in `office_overture/` corresponds to a single firm and 169 metropolitan
 
 
 ## License
-The processed data builds on **Overture Maps** datasets. Please refer to the [Overture Maps license](https://overturemaps.org) for terms of use.
+The processed data builds on **Overture Maps** datasets. Please refer to the [Overture Maps license](https://docs.overturemaps.org/attribution/) for terms of use.

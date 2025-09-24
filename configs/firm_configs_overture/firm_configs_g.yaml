@@ -1,0 +1,258 @@
+# Info specific to each firm
+firm_info:
+  gd: # General Dynamics
+    name_pattern:
+      - General Dynamics
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gddy: # GoDaddy
+    name_pattern:
+      - GoDaddy
+      - Go Daddy
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ge: # GE Aerospace
+    name_pattern:
+      - GE Aerospace
+      - General Electric Aerospace
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gehc: # GE HealthCare
+    name_pattern:
+      - GE HealthCare
+      - General Electric HealthCare
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gen: # Gen Digital
+    name_pattern:
+      - Gen Digital
+      - NortonLifeLock # former name
+      - Symantec # acquired brand
+      - Norton # brand
+      - Avira # brand
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gev: # GE Vernova
+    name_pattern:
+      - GE Vernova
+      - General Electric Vernova
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gild: # Gilead Sciences
+    name_pattern:
+      - Gilead Sciences
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gis: # General Mills
+    name_pattern:
+      - General Mills
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gl: # Globe Life
+    name_pattern:
+      - Globe Life
+      - Torchmark # former name
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  glw: # Corning Inc.
+    name_pattern:
+      - Corning Inc
+      - Corning Incorporated
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gm: # General Motors
+    name_pattern:
+      - General Motors
+      - Cadillac
+      - Chevrolet
+      - Buick
+      - OnStar
+      - General Motors Cruise
+      - GM Cruise
+      - BrightDrop
+      - GM Financial
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gnrc: # Generac
+    name_pattern:
+      - Generac
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  goog: # Alphabet Inc.
+    name_pattern:
+      - Alphabet
+      - Google
+      - YouTube # subsidiary
+      - Waymo # subsidiary
+      - Verily # subsidiary
+      - DeepMind # subsidiary
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - social_media_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  gpc: # Genuine Parts Company
+    name_pattern:
+      - Genuine Parts
+      - NAPA Auto Parts # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gpn: # Global Payments
+    name_pattern:
+      - Global Payments
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gps: # Gap
+    name_pattern:
+      - Gap
+      - Old Navy # subsidiary
+      - Banana Republic # subsidiary
+      - Athleta # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name:
+        - GAP DENTAL
+        - GAP INSURANCE
+      primary_category: []
+
+  grmn: # Garmin
+    name_pattern:
+      - Garmin
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gs: # Goldman Sachs
+    name_pattern:
+      - Goldman Sachs
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gt: # The Goodyear Tire & Rubber Co.
+    name_pattern:
+      - Goodyear
+      #- The Goodyear Tire & Rubber
+      #- Goodyear Tire
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  gww: # W. W. Grainger
+    name_pattern:
+      #- W. W. Grainger
+      #- WW Grainger
+      - Grainger
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

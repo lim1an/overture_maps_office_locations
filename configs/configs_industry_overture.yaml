@@ -1,0 +1,187 @@
+industry_info:
+  all_industry: # Apply to all
+    name_pattern:
+      - CAMPUS
+      - HEADQUARTERS
+      - HQ
+      - OFFICE
+      - technology center
+      - data center
+      - Corporation
+      - Company
+      - Inc
+      - Inc.
+      - Co
+      - Co.
+    office_categories: # Category values of office places
+      - event_planning
+      - corporate_office
+      - shared_office_space
+      - business_to_business_services # This introduces a few false positives for Apple
+      - campus_building # This might introduces false positives of schools...
+    exclusions:
+      name:
+        - STORE
+        - AUTHORIZED  
+        - ACADEMY
+        - DISTRIBUTION
+        - REPAIR
+        - NEIGHBORHOOD
+        - SUPERCENTER
+        - CHURCH
+        - BUS
+      primary_category: # many categories are introduces because we decided any firm-named place s.joint with an office bldg as an office..
+        # By design, entries with alternate category values as follows will also be excluded
+        # Stores/Small business
+        - beauty_salon
+        - beauty_and_spa
+        - grocery_store
+        - department_store
+        - tobacco_shop
+        - coffee_shop
+        - dentist
+        - psychologist
+        - day_care_preschool
+        - tutoring_center
+        - korean_restaurant
+        - fruits_and_vegetables
+        - mobile_phone_store
+        - flowers_and_gifts_shop
+        # Gov/NPOs/Religions
+        - public_and_government_association
+        - bus_station
+        - religious_organization
+        - church_cathedral
+        # Exclude the false positives introduced by "event planning"
+        - wedding_planning
+        - event_photography
+        - music_venue
+        - party_supply
+        - topic_concert_venue
+        - caterer
+        # Exclude the false positives introduced by "campus building"
+        - specialty_school
+        - language_school
+        # might exlucde true positives for some firms
+        - travel_services
+        - landscaping
+        - education
+        - hvac_services
+        - b2b_cleaning_and_waste_management
+
+  financial_service: # Apply to firms in financial service industry
+    name_pattern:
+      - TRADING FLOOR
+      - Financial
+    business_categories: # Category values specific to the business beyond the categroy values of the offices; Used in Rule #2 that a place is an office if category in business category values and s.joint with an office building
+      - financial_service
+      - financial_advising
+      - property_management
+      - real_estate
+      - investing
+      - bank_credit_union
+      - professional_services
+    exclusions:
+      name:
+        - Branch
+        - ATM
+        - financial center # usually banks
+        - home loans
+        - mortgage
+        - advisor # Individual Financial Advisors
+        # Ex-post exclusions
+        - steel # Allstate steel firm vs Allstate insurance
+      primary_category:
+        - 
+
+  technology: # Apply to firms in tech industry
+    name_pattern:
+      - Technologies
+      - Technology
+      - TECH
+      - SOFTWARE
+      - R&D CENTER
+      - TECHNICAL
+      - IT
+      - CLOUD
+      - AI
+      - MACHINE LEARNING
+      - CYBERSECURITY
+      - DIGITAL
+    office_categories:
+      - information_technology_company
+      - computer_hardware_company
+      - software_development
+    business_categories:
+      - electronics
+      - internet_service_provider
+    exclusions:
+      name:
+        - insight
+        - media
+        - beauty
+        - space
+        - ads
+        - pharma
+        - school
+      primary_category:
+        - financial_service
+        - advertising_agency
+        - internet_marketing_service
+        - it_service_and_computer_repair
+        - business_advertising
+        - computer_coaching
+        - web_designer
+        - marketing_consultant
+        - legal_services
+
+  manufacturing: # Apply to firms in manufacturing industry
+    name_pattern:
+      - Products
+      - Industries
+    business_categories:
+      - business_manufacturing_and_supply
+      - engineering_services
+      - industrial_company
+      - commercial_industrial
+    exclusions:
+      name:
+        - dealer
+
+  energy: # Apply to firms in energy industry
+    name_pattern:
+      - ENERGY
+      - RENEWABLE ENERGY
+      - NEWENERGY
+      - HYDROELECTRIC
+      - UTILITIES
+      - Resources
+    business_categories: []
+    exclusions: {}
+
+  retail: # Apply to firms in retail industry
+    name_pattern: []
+    business_categories: []
+    exclusions: {}
+
+  pharmaceutical: # Apply to firms in pharmaceutical/healthcare industry
+    name_pattern: # I DO NOT consider labs as corp offices
+      - RESEARCH
+      - R&D
+      - PHARMACEUTICAL
+      - HEALTH
+      - MEDICAL
+      - Scientific
+    business_categories:
+      - pharmaceutical_company
+      - biotechnology_company
+      - medical_device_company
+      - health_and_medical
+      - healthcare_service
+    exclusions: {}
+
+  transportation: # Apply to firms in transportation industry
+    name_pattern: 
+      - Airlines
+    business_categories: []
+    exclusions: {}

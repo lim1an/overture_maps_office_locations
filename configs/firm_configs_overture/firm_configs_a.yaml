@@ -1,0 +1,737 @@
+# Info specific to each firm
+firm_info:
+  aos: # A. O. Smith
+    name_pattern:
+      - A. O. Smith
+      - AO Smith
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  abt: # Abbott Laboratories
+    name_pattern:
+      - Abbott
+      #- Abbott Laboratories
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  abbv: # AbbVie
+    name_pattern:
+      - AbbVie
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  abmd: # Abiomed
+    name_pattern:
+      - Abiomed
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  acn: # Accenture
+    name_pattern:
+      - Accenture
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  atvi: # Activision Blizzard
+    name_pattern:
+      - Activision Blizzard
+      - Activision Publishing
+      - Blizzard Entertainment
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  adbe: # Adobe Systems Inc.
+    name_pattern:
+      - Adobe
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aap: # Advance Auto Parts
+    name_pattern:
+      - Advance Auto
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amd: # Advanced Micro Devices
+    name_pattern:
+      - AMD
+      - Advanced Micro Devices
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aes: # AES Corporation
+    name_pattern:
+      - AES
+      - Applied Energy Services
+      - AES Corporation
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amg: # Affiliated Managers Group
+    name_pattern:
+      - Affiliated Managers Group
+      - AMG
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  afl: # Aflac Inc.
+    name_pattern:
+      - Aflac
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  a: # Agilent Technologies
+    name_pattern:
+      - Agilent
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  apd: # Air Products
+    name_pattern:
+      - Air Products
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  abnb: # Airbnb
+    name_pattern:
+      - Airbnb
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  akam: # Akamai Technologies
+    name_pattern:
+      - Akamai Technologies
+    industry:
+      - technology
+    office_categories: 
+      - professional_services # hard-coded after eyeballing Akamai data entries
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+      region:
+        - HI # "Akamai" is a Hawaiian word meaning smart, clever, or intelligent. Many Akamai named places in HI but none of them are the target
+
+  alk: # Alaska Air Group
+    name_pattern:
+      - Alaska Airlines
+      - Alaska Air Group
+    industry:
+      - transportation
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  alb: # Albemarle Corporation
+    name_pattern:
+      - Albemarle
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  alxn: # Alexion Pharmaceuticals
+    name_pattern:
+      - Alexion
+      #- Alexion Pharmaceuticals
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  algn: # Align Technology
+    name_pattern:
+      - Align Technology
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  alle: # Allegion
+    name_pattern:
+      - Allegion
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ads: # Alliance Data Systems
+    name_pattern:
+      #- Alliance Data Systems
+      - Alliance Data
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  all: # Allstate
+    name_pattern:
+      - Allstate
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  goog: # Alphabet Inc.
+    name_pattern:
+      - Google
+      - Alphabet
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amzn: # Amazon
+    name_pattern:
+      - Amazon
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amcr: # Amcor
+    name_pattern:
+      - Amcor
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amtm: # Amentum
+    name_pattern:
+      - Amentum
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aee: # Ameren
+    name_pattern:
+      - Ameren
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aal: # American Airlines Group
+    name_pattern:
+      - American Airlines
+    industry:
+      - transportation
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aep: # American Electric Power
+    name_pattern:
+      - American Electric Power
+      - AEP
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  axp: # American Express
+    name_pattern:
+      - American Express
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aig: # American International Group
+    name_pattern:
+      - American International Group
+      - AIG
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amt: # American Tower
+    name_pattern:
+      - American Tower
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amp: # Ameriprise Financial
+    name_pattern:
+      - Ameriprise
+      #- Ameriprise Financial
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ame: # Ametek
+    name_pattern:
+      - Ametek
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  amgn: # Amgen
+    name_pattern:
+      - Amgen
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  apc: # Anadarko Petroleum
+    name_pattern:
+      - Anadarko
+      #- Anadarko Petroleum
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  adi: # Analog Devices
+    name_pattern:
+      - Analog Devices
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  anss: # Ansys
+    name_pattern:
+      - Ansys
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aon: # Aon
+    name_pattern:
+      - Aon
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  apa: # APA Corporation
+    name_pattern:
+      - APA Corporation
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aiv: # Apartment Investment & Management
+    name_pattern:
+      - Apartment Investment & Management
+      - AIMCO
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aapl: # Apple Inc.
+    name_pattern: 
+      - APPLE
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name:
+        - AMERICAN GROUP      # Apple American Group (different company)
+        - APPLE ADJUSTERS INC # Insurance adjusters
+        - PROPERTY MANAGEMENT # Property management with Apple in name
+        - MILLER APPLE LP     # Apple orchard/farm
+        - Apple Bank          # A local bank brand in NYC
+        - Apple Billing and Credentialing LLC
+        - BIG APPLE
+        - BLACK APPLE
+        - APPLE METRO INC
+        - APPLE SIGN & EXHIBITS
+        - MATHWORKS APPLE HILL CAMPUS
+        # They popped up in the old results and the exclusions will be applied in the end, so no false negs should be introduced by this
+        - APPLE COMPUTER CENTER
+        - APPLE SOFTWARE NEW YORK
+
+  amat: # Applied Materials
+    name_pattern:
+      - Applied Materials
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  acgl: # Arch Capital Group
+    name_pattern:
+      #- Arch Capital Group
+      - Arch Capital
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  adm: # Archer Daniels Midland
+    name_pattern:
+      - Archer Daniels Midland
+      - ADM
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  anet: # Arista Networks
+    name_pattern:
+      #- Arista Networks
+      - Arista
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aph: # Amphenol
+    name_pattern:
+      - Amphenol
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aptv: # Aptiv
+    name_pattern:
+      - Aptiv
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  are: # Alexandria Real Estate Equities
+    name_pattern:
+      #- Alexandria Real Estate
+      - Alexandria
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  arnc: # Arconic
+    name_pattern:
+      - Arconic
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ato: # Atmos Energy
+    name_pattern:
+      #- Atmos Energy
+      - Atmos
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ajg: # Arthur J. Gallagher & Co.
+    name_pattern:
+      - Arthur J. Gallagher
+      - AJG
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  aiz: # Assurant
+    name_pattern:
+      - Assurant
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  avb: # AvalonBay Communities
+    name_pattern:
+      - AvalonBay
+      #- AvalonBay Communities
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  avgo: # Broadcom
+    name_pattern:
+      - Broadcom
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  adsk: # Autodesk
+    name_pattern:
+      - Autodesk
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  avy: # Avery Dennison
+    name_pattern:
+      - Avery Dennison
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  awk: # American Water Works
+    name_pattern:
+      #- American Water Works
+      - American Water
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  axon: # Axon Enterprise
+    name_pattern:
+      - Axon
+      #- Axon Enterprise
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  adp: # Automatic Data Processing
+    name_pattern:
+      - ADP
+      - Automatic Data Processing
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  azo: # AutoZone
+    name_pattern:
+      - AutoZone
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  avt: # Avnet
+    name_pattern:
+      - Avnet
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

@@ -1,0 +1,81 @@
+# Info specific to each firm
+firm_info:
+  xec: # Cimarex Energy
+    name_pattern:
+      - Cimarex
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  xel: # Xcel Energy
+    name_pattern:
+      - Xcel Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  xlnx: # Xilinx
+    name_pattern:
+      - Xilinx
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  xom: # ExxonMobil
+    name_pattern:
+      - ExxonMobil
+      - Exxon
+      - Mobil
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  xray: # Dentsply Sirona
+    name_pattern:
+      - Dentsply
+      - Sirona
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  xrx: # Xerox
+    name_pattern:
+      - Xerox
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  xyl: # Xylem Inc.
+    name_pattern:
+      - Xylem
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

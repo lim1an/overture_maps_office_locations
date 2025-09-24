@@ -23,13 +23,13 @@ The full raw Overture Maps datasets are not included here. Instead, we publish o
 │ │ ├── firm_configs_b.yaml
 │ │ ├── ...
 │ └── configs_industry_overture.yaml # Industry-specific rules for Overture 
-└── processed_data/ # Processed Overture results (firm × city CSVs)
+└── office_overture/ # Processed Overture results by firm CSVs (`is_office` results included)
 ```
 
 - **configs/** contains YAML files that define rules used to identify office locations.  
   - *Firm configs* include company name patterns, alternative names, and exclusions.  
   - *Industry configs* contain general office-identifying keywords and category filters.  
-- **processed_data/** contains the final cleaned datasets in CSV format.
+- **office_overture/** contains the final cleaned datasets in CSV format.
 
 ## Example Firm Config (YAML)
 
@@ -49,7 +49,7 @@ firm_info:
 ```
 
 ## Data Dictionary
-Each CSV in `processed_data/` corresponds to a single firm and city, and contains the following fields:  
+Each CSV in `office_overture/` corresponds to a single firm and city, and contains the following fields:  
 
 - **id_left** – Place identifier from Overture Maps   
 - **primary_name_left** – Place name from Overture Maps  

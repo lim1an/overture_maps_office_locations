@@ -1,0 +1,488 @@
+# Info specific to each firm
+firm_info:
+  m: # Macy's
+    name_pattern:
+      - Macy's
+      - Macys
+      - Bloomingdale's # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ma: # Mastercard
+    name_pattern:
+      - Mastercard
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  maa: # Mid-America Apartment Communities
+    name_pattern:
+      - Mid-America Apartment Communities
+      - MAA
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mac: # Macerich
+    name_pattern:
+      - Macerich
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mar: # Marriott International
+    name_pattern:
+      - Marriott International
+      - Marriott
+      - Ritz-Carlton # subsidiary brand
+      - Courtyard # subsidiary brand
+      - Residence Inn # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mas: # Masco
+    name_pattern:
+      - Masco
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mat: # Mattel
+    name_pattern:
+      - Mattel
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mbc: # MasterBrand
+    name_pattern:
+      - MasterBrand
+      - Master Brand
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mcd: # McDonald's
+    name_pattern:
+      - McDonald's
+      - McDonalds
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mchp: # Microchip Technology
+    name_pattern:
+      - Microchip
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mck: # McKesson Corporation
+    name_pattern:
+      - McKesson
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mco: # Moody's Corporation
+    name_pattern:
+      - Moody's
+      - Moodys # While Moody's introduce search results of unrelated business, the corp offices are often named only after Moody's (e.g. Moody's Analytics)
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mdlz: # Mondelez International
+    name_pattern:
+      - Mondelez
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mdt: # Medtronic
+    name_pattern:
+      - Medtronic
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  met: # MetLife
+    name_pattern:
+      - MetLife
+      - Met Life
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  meta: # Meta Platforms
+    name_pattern:
+      - Meta
+      - Facebook
+      - Instagram # subsidiary
+      - WhatsApp # subsidiary
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - social_media_company
+    exclusions:
+      name:
+        - YUPIX
+      primary_category: []
+
+  mgm: # MGM Resorts
+    name_pattern:
+      - MGM
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mhk: # Mohawk Industries
+    name_pattern:
+      - Mohawk
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mkc: # McCormick & Company
+    name_pattern:
+      - McCormick
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mktx: # MarketAxess
+    name_pattern:
+      - MarketAxess
+      - Market Axess
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mlm: # Martin Marietta Materials
+    name_pattern:
+      - Martin Marietta
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mmc: # Marsh McLennan
+    name_pattern:
+      #- Marsh McLennan
+      #- Marsh & McLennan
+      - Marsh # Many offices are named after Marsh only
+      - Oliver Wyman # subsidiary
+      - Mercer # subsidiary
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mmm: # 3M
+    name_pattern:
+      - 3M
+      - Minnesota Mining and Manufacturing
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mnst: # Monster Beverage
+    name_pattern:
+      - Monster Beverage
+      - Monster Energy
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mo: # Altria
+    name_pattern:
+      - Altria
+      - Philip Morris # legacy name
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  moh: # Molina Healthcare
+    name_pattern:
+      - Molina Healthcare
+      - Molina Insurance
+    industry:
+      - pharmaceutical
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mos: # Mosaic Company (The)
+    name_pattern:
+      - Mosaic # While Mosaic introduces search results of unrelated business, the corp offices are often named only after Mosaic
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mpc: # Marathon Petroleum
+    name_pattern:
+      - Marathon
+    industry:
+      - energy
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mpwr: # Monolithic Power Systems
+    name_pattern:
+      - Monolithic Power Systems
+      - MPS
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mrk: # Merck & Co.
+    name_pattern:
+      - Merck & Co
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mrna: # Moderna
+    name_pattern:
+      - Moderna
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mro: # Marathon Oil
+    name_pattern:
+      - Marathon Oil
+    industry:
+      - energy
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ms: # Morgan Stanley
+    name_pattern:
+      - Morgan Stanley
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  msci: # MSCI
+    name_pattern:
+      - MSCI
+      - Morgan Stanley Capital International
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  msft: # Microsoft
+    name_pattern:
+      - Microsoft
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  msi: # Motorola Solutions
+    name_pattern:
+      - Motorola
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mtb: # M&T Bank
+    name_pattern:
+      - M&T Bank
+      - M & T Bank
+      - Manufacturers and Traders Trust
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mtch: # Match Group
+    name_pattern:
+      - Match Group
+      - Tinder # subsidiary
+      - Match.com # subsidiary
+      - OkCupid # subsidiary
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mtd: # Mettler Toledo
+    name_pattern:
+      - Mettler Toledo
+      - Mettler-Toledo
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mu: # Micron Technology
+    name_pattern:
+      - Micron
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  mxim: # Maxim Integrated
+    name_pattern:
+      - Maxim
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

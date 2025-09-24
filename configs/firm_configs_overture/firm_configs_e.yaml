@@ -1,0 +1,450 @@
+# Info specific to each firm
+firm_info:
+  ea: # Electronic Arts
+      name_pattern:
+        - Electronic Arts
+        - EA Sports
+        - EA Games
+        - Maxis
+        - BioWare
+        - DICE
+        - Respawn Entertainment
+        - Criterion Games
+      industry:
+        - technology
+      office_categories: []
+      business_categories:
+        - software_development
+        - entertainment_company
+      exclusions:
+        name: []
+        primary_category: []
+
+  ebay: # eBay
+    name_pattern:
+      - eBay
+      - PayPal # former subsidiary, now independent
+      - StubHub
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - internet_marketplace
+      - e_commerce_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  ecl: # Ecolab
+    name_pattern:
+      - Ecolab
+      - Nalco Water
+      - ChampionX # spun off but related
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - chemical_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  ed: # Consolidated Edison
+    name_pattern:
+      - Consolidated Edison
+      - Con Edison
+      - ConEd
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - utility_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  efx: # Equifax
+    name_pattern:
+      - Equifax
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - credit_reporting
+      - data_analytics
+    exclusions:
+      name: []
+      primary_category: []
+
+  eg: # Everest Group
+    name_pattern:
+      - Everest Group
+      - Everest Re
+      - Everest Reinsurance
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - insurance_company
+    exclusions:
+      name:
+        - Everest Base Camp # mountaineering
+        - Mount Everest # geography
+      primary_category: []
+
+  eix: # Edison International
+    name_pattern:
+      - Edison International
+      - Southern California Edison
+      - SCE
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - utility_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  el: # Estée Lauder Companies
+    name_pattern:
+      - Estée Lauder
+      - Estee Lauder
+      - MAC Cosmetics
+      - Clinique
+      - Origins
+      - Bobbi Brown
+      - Too Faced
+      - Tom Ford Beauty
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - cosmetics_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  elv: # Elevance Health
+    name_pattern:
+      - Elevance Health
+      - Anthem # former name
+      - Blue Cross Blue Shield # affiliated plans
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - health_insurance
+      - healthcare_service
+    exclusions:
+      name: []
+      primary_category: []
+
+  emn: # Eastman Chemical Company
+    name_pattern:
+      - Eastman Chemical
+      - Eastman
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - chemical_company
+    exclusions:
+      name:
+        - Eastman Kodak # different company
+      primary_category: []
+
+  emr: # Emerson Electric
+    name_pattern:
+      - Emerson Electric
+      - Emerson
+      - Copeland
+      - Fisher
+      - Rosemount
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - industrial_automation
+    exclusions:
+      name:
+        - Lake Emerson # geography
+        - Emerson College # education
+      primary_category:
+        - education
+        - specialty_school
+
+  enph: # Enphase Energy
+    name_pattern:
+      - Enphase Energy
+      - Enphase
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - solar_energy
+      - renewable_energy
+    exclusions:
+      name: []
+      primary_category: []
+
+  eog: # EOG Resources
+    name_pattern:
+      - EOG Resources
+      - EOG
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - oil_and_gas
+    exclusions:
+      name: []
+      primary_category: []
+
+  epam: # EPAM Systems
+    name_pattern:
+      - EPAM Systems
+      - EPAM
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - software_development
+      - consulting_services
+    exclusions:
+      name: []
+      primary_category: []
+
+  eqix: # Equinix
+    name_pattern:
+      - Equinix
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - data_center
+      - colocation_services
+    exclusions:
+      name: []
+      primary_category: []
+
+  eqr: # Equity Residential
+    name_pattern:
+      - Equity Residential
+      - EQR
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - real_estate_investment_trust
+      - property_management
+    exclusions:
+      name: []
+      primary_category: []
+
+  eqt: # EQT Corporation
+    name_pattern:
+      - EQT Corporation
+      - EQT
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - natural_gas
+    exclusions:
+      name: []
+      primary_category: []
+
+  erie: # Erie Indemnity
+    name_pattern:
+      - Erie Indemnity
+      - Erie Insurance
+      - ERIE
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - insurance_company
+    exclusions:
+      name:
+        - Lake Erie # geography
+      primary_category: []
+
+  es: # Eversource Energy
+    name_pattern:
+      - Eversource Energy
+      - Eversource
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - utility_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  ess: # Essex Property Trust
+    name_pattern:
+      - Essex Property Trust
+      - Essex Property
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - real_estate_investment_trust
+      - property_management
+    exclusions:
+      name:
+        - Essex County # geography
+      primary_category: []
+
+  etfc: # E*TRADE
+    name_pattern:
+      - E*TRADE
+      - ETRADE
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - online_brokerage
+    exclusions:
+      name: []
+      primary_category: []
+
+  etn: # Eaton Corporation
+    name_pattern:
+      - Eaton Corporation
+      - Eaton
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - power_management
+      - industrial_equipment
+    exclusions:
+      name:
+        - Eaton Centre # shopping center
+      primary_category: []
+
+  etr: # Entergy
+    name_pattern:
+      - Entergy
+      - Entergy Louisiana
+      - Entergy Mississippi
+      - Entergy Arkansas
+      - Entergy Texas
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - utility_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  etsy: # Etsy
+    name_pattern:
+      - Etsy
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - e_commerce_company
+      - online_marketplace
+    exclusions:
+      name: []
+      primary_category: []
+
+  evrg: # Evergy
+    name_pattern:
+      - Evergy
+      - Kansas City Power & Light
+      - KCP&L
+      - Westar Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - utility_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  ew: # Edwards Lifesciences
+    name_pattern:
+      - Edwards Lifesciences
+      - Edwards
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories:
+      - medical_device_company
+    exclusions:
+      name:
+        - Edwards Air Force Base # military base
+      primary_category: []
+
+  exc: # Exelon
+    name_pattern:
+      - Exelon
+      - ComEd
+      - PECO
+      - Baltimore Gas and Electric
+      - BGE
+      - Pepco
+      - Delmarva Power
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - utility_company
+      - nuclear_energy
+    exclusions:
+      name: []
+      primary_category: []
+
+  expd: # Expeditors International
+    name_pattern:
+      - Expeditors International
+      - Expeditors
+    industry:
+      - transportation
+    office_categories: []
+    business_categories:
+      - logistics
+      - freight_forwarding
+    exclusions:
+      name: []
+      primary_category: []
+
+  expe: # Expedia Group
+    name_pattern:
+      - Expedia Group
+      - Expedia
+      - Hotels.com
+      - Vrbo
+      - Orbitz
+      - Travelocity
+      - Hotwire
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - online_travel
+      - travel_services
+    exclusions:
+      name: []
+      primary_category: []
+
+  exr: # Extra Space Storage
+    name_pattern:
+      - Extra Space Storage
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - self_storage
+      - real_estate_investment_trust
+    exclusions:
+      name: []
+      primary_category: []

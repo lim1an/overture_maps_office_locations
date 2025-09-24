@@ -1,0 +1,196 @@
+# Info specific to each firm
+firm_info:
+  v: # Visa Inc.
+    name_pattern:
+      - Visa
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  var: # Varian Medical Systems
+    name_pattern:
+      #- Varian Medical Systems
+      - Varian # Many offices are named only after Varian
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vfc: # VF Corporation
+    name_pattern:
+      - VF
+      - The North Face # subsidiary brand
+      - Vans # subsidiary brand
+      - Timberland # subsidiary brand
+      - Wrangler # subsidiary brand
+      - Lee # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  viab: # Viacom
+    name_pattern:
+      - Viacom
+      - ViacomCBS # merged entity
+      - Paramount # current name
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vici: # Vici Properties
+    name_pattern:
+      - Vici Properties
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vlo: # Valero Energy
+    name_pattern:
+      - Valero
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vlto: # Veralto
+    name_pattern:
+      - Veralto
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vmc: # Vulcan Materials Company
+    name_pattern:
+      - Vulcan Materials # Offices are named after Vulcan Materials not just Vulcan
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vno: # Vornado Realty Trust
+    name_pattern:
+      - Vornado Realty Trust
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vnt: # Vontier
+    name_pattern:
+      - Vontier
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vrsk: # Verisk Analytics
+    name_pattern:
+      - Verisk
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vrsn: # Verisign
+    name_pattern:
+      - Verisign
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vrtx: # Vertex Pharmaceuticals
+    name_pattern:
+      - Vertex # There's a tech firm called Vertex too - need to see if the pipeline can filter them out
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vst: # Vistra Corp.
+    name_pattern:
+      - Vistra
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vtr: # Ventas
+    name_pattern:
+      - Ventas
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vtrs: # Viatris
+    name_pattern:
+      - Viatris
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  vz: # Verizon
+    name_pattern:
+      - Verizon
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

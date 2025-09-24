@@ -1,0 +1,248 @@
+# Info specific to each firm
+firm_info:
+  ibm: # IBM
+    name_pattern:
+      - IBM
+      - International Business Machines
+      - Red Hat # subsidiary
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ice: # Intercontinental Exchange
+    name_pattern:
+      - Intercontinental Exchange
+      - ICE
+      - New York Stock Exchange # subsidiary
+      - NYSE # subsidiary
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  idxx: # Idexx Laboratories
+    name_pattern:
+      - IDEXX
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  iex: # IDEX Corporation
+    name_pattern:
+      - IDEX
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  iff: # International Flavors & Fragrances
+    name_pattern:
+      - International Flavors & Fragrances
+      - IFF
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ilmn: # Illumina, Inc.
+    name_pattern:
+      - Illumina
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  incy: # Incyte
+    name_pattern:
+      - Incyte
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  info: # IHS Markit
+    name_pattern:
+      - IHS Markit
+      - S&P Global # merged entity
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  intc: # Intel
+    name_pattern:
+      - Intel
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  intu: # Intuit
+    name_pattern:
+      - Intuit
+      - TurboTax # subsidiary product
+      - QuickBooks # subsidiary product
+      - Mint # subsidiary product
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  invh: # Invitation Homes
+    name_pattern:
+      - Invitation Homes
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ip: # International Paper
+    name_pattern:
+      - International Paper
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ipg: # Interpublic Group of Companies (The)
+    name_pattern:
+      - Interpublic Group
+      - The Interpublic Group
+      - IPG
+      - McCann # subsidiary
+      - Weber Shandwick # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ipgp: # IPG Photonics
+    name_pattern:
+      - IPG Photonics
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  iqv: # IQVIA
+    name_pattern:
+      - IQVIA
+      - Quintiles IMS # former name
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ir: # Ingersoll Rand
+    name_pattern:
+      - Ingersoll Rand
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  irm: # Iron Mountain
+    name_pattern:
+      - Iron Mountain
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  isrg: # Intuitive Surgical
+    name_pattern:
+      - Intuitive Surgical
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  it: # Gartner
+    name_pattern:
+      - Gartner
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  itw: # Illinois Tool Works
+    name_pattern:
+      - Illinois Tool Works
+      - ITW
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ivz: # Invesco
+    name_pattern:
+      - Invesco
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

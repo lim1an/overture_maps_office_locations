@@ -1,0 +1,16 @@
+# Info specific to each firm
+firm_info:
+  yum: # Yum! Brands
+    name_pattern:
+      - Yum! Brands
+      - Yum Brands
+      - KFC # subsidiary
+      - Pizza Hut # subsidiary
+      - Taco Bell # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

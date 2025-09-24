@@ -1,0 +1,403 @@
+# Info specific to each firm
+firm_info:
+
+  fang: # Diamondback Energy
+    name_pattern:
+      - Diamondback Energy
+      - Diamondback
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - oil_and_gas
+    exclusions:
+      name: []
+      primary_category: []
+
+  fast: # Fastenal
+    name_pattern:
+      - Fastenal
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - industrial_supply
+    exclusions:
+      name: []
+      primary_category: []
+
+  f: # Ford Motor Company
+    name_pattern:
+      - Ford Motor Company
+      - Ford
+      - Lincoln # luxury division
+      - Ford Credit
+      - Ford Pro # commercial division
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - automotive_manufacturer
+    exclusions:
+      name:
+        - Ford Foundation # different organization
+      primary_category: []
+
+  fbhs: # Fortune Brands Home & Security
+    name_pattern:
+      - Fortune Brands Home & Security
+      - Fortune Brands
+      - Moen
+      - Master Lock
+      - Therma-Tru
+      - Fiberon
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - home_improvement
+    exclusions:
+      name: []
+      primary_category: []
+
+  fcx: # Freeport-McMoRan
+    name_pattern:
+      - Freeport-McMoRan
+      - Freeport McMoRan
+      - McMoRan
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - mining_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  fds: # FactSet
+    name_pattern:
+      - FactSet
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - financial_data
+      - investment_research
+    exclusions:
+      name: []
+      primary_category: []
+
+  fdx: # FedEx
+    name_pattern:
+      - FedEx
+      - Federal Express
+      - FedEx Ground
+      - FedEx Express
+      - FedEx Freight
+      - FedEx Services
+      - TNT Express # acquired subsidiary
+    industry:
+      - transportation
+    office_categories: []
+    business_categories:
+      - shipping_and_logistics
+    exclusions:
+      name:
+      - FedEx Office Print & Ship Center
+      - RushMyPassport in FedEx Office
+      - FedEx Mechanic Shop
+      - FedEx MSP Ramp Office
+      - FedEx Office Ship Center
+      - Signs & Graphics By FedEx Office
+      - Genco / Fedex Supply Chain
+      - FedEx Experience Center
+      - FedEx Warehouse
+      - FedEx Hub
+      - Kent Staffed FedEx Office
+      - FedEx Office
+      - FedEx Office Print and Ship Center
+      - FedEx Home Delivery
+      - FedEx Express - SJCR
+      - Goin' Postal Miami/ DHL- FedEx- Postal Office- EnvÃ­os Puerta a Puerta- Freight Cargo
+      - LAKES POSTAL UPS-FEDEX-DHL-POST OFFICE
+      - Boxes Etcetera - Print and Ship - UPS FedEx USPS - Logos and Websites
+      - FedEx Ground St Louis OTP
+      - FedEx Hub
+      - World Service Center
+      - FedEx Home Delivery Headquarters
+      - Fedex Olmos Park Postal Center/United States Post Office
+      - FedEx Drop Box
+      - PACK & SHIP ETC.- FedEx, UPS, DHL, USPS
+      - FedEx Ground Oak Park Michigan
+      - FedEx at other retailers
+      - FedEx Office Centralized Production Center
+      primary_category: []
+
+  fe: # FirstEnergy
+    name_pattern:
+      - FirstEnergy
+      - Ohio Edison
+      - Cleveland Electric
+      - Toledo Edison
+      - Penn Power
+      - Met-Ed
+      - Penelec
+      - West Penn Power
+      - Potomac Edison
+      - Mon Power
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - utility_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  ffiv: # F5, Inc.
+    name_pattern:
+      - F5 Networks
+      - F5
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - network_security
+      - application_delivery
+    exclusions:
+      name: []
+      primary_category: []
+
+  fi: # Fiserv
+    name_pattern:
+      - Fiserv
+      - First Data # acquired subsidiary
+      - Clover # point-of-sale system
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - financial_technology
+      - payment_processing
+    exclusions:
+      name: []
+      primary_category: []
+
+  fico: # Fair Isaac
+    name_pattern:
+      - Fair Isaac
+      - FICO
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - credit_scoring
+      - analytics_software
+    exclusions:
+      name: []
+      primary_category: []
+
+  fis: # Fidelity National Information Services
+    name_pattern:
+      - Fidelity National Information Services
+      - FIS
+      - Worldpay # acquired subsidiary
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - financial_technology
+      - payment_processing
+    exclusions:
+      name:
+        - Fidelity Investments # different company
+      primary_category: []
+
+  fitb: # Fifth Third Bancorp
+    name_pattern:
+      - Fifth Third Bank
+      - Fifth Third Bancorp
+      - 5/3 Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - bank_credit_union
+    exclusions:
+      name: []
+      primary_category: []
+
+  fl: # Foot Locker
+    name_pattern:
+      - Foot Locker
+      - Footlocker
+      - Champs Sports
+      - Lady Foot Locker
+      - Kids Foot Locker
+      - Eastbay
+    industry:
+      - retail
+    office_categories: []
+    business_categories:
+      - athletic_footwear
+    exclusions:
+      name: []
+      primary_category: []
+
+  flir: # FLIR Systems
+    name_pattern:
+      - FLIR Systems
+      - FLIR
+      - Teledyne FLIR # after acquisition
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - thermal_imaging
+      - defense_technology
+    exclusions:
+      name: []
+      primary_category: []
+
+  flr: # Fluor Corporation
+    name_pattern:
+      - Fluor Corporation
+      - Fluor
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - engineering_construction
+    exclusions:
+      name: []
+      primary_category: []
+
+  fls: # Flowserve
+    name_pattern:
+      - Flowserve
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - industrial_equipment
+      - flow_control
+    exclusions:
+      name: []
+      primary_category: []
+
+  fmc: # FMC Corporation
+    name_pattern:
+      - FMC Corporation
+      - FMC
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories:
+      - agricultural_chemicals
+      - lithium
+    exclusions:
+      name: []
+      primary_category: []
+
+  fox: # Fox Corporation
+    name_pattern:
+      - Fox Corporation
+      - Fox Broadcasting
+      - Fox News
+      - Fox Sports
+      - Fox Business
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - media_company
+      - broadcasting
+    exclusions:
+      name:
+        - 20th Century Fox # sold to Disney
+      primary_category: []
+
+  frc: # First Republic Bank
+    name_pattern:
+      - First Republic Bank
+      - First Republic
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - private_banking
+      - wealth_management
+    exclusions:
+      name: []
+      primary_category: []
+
+  frt: # Federal Realty Investment Trust
+    name_pattern:
+      - Federal Realty Investment Trust
+      - Federal Realty
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories:
+      - real_estate_investment_trust
+      - retail_properties
+    exclusions:
+      name: []
+      primary_category: []
+
+  fslr: # First Solar
+    name_pattern:
+      - First Solar
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - solar_energy
+      - renewable_energy
+    exclusions:
+      name: []
+      primary_category: []
+
+  fti: # TechnipFMC
+    name_pattern:
+      - TechnipFMC
+      - Technip
+      - FMC Technologies
+    industry:
+      - energy
+    office_categories: []
+    business_categories:
+      - oil_and_gas_services
+      - subsea_technology
+    exclusions:
+      name: []
+      primary_category: []
+
+  ftnt: # Fortinet
+    name_pattern:
+      - Fortinet
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - cybersecurity
+      - network_security
+    exclusions:
+      name: []
+      primary_category: []
+
+  ftv: # Fortive
+    name_pattern:
+      - Fortive
+      - Fluke # subsidiary
+      - Tektronix # subsidiary
+      - Industrial Scientific # subsidiary
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - industrial_technology
+      - professional_instrumentation
+    exclusions:
+      name: []
+      primary_category: []

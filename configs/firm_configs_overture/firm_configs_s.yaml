@@ -1,0 +1,370 @@
+# Info specific to each firm
+firm_info:
+  sbac: # SBA Communications
+    name_pattern:
+      - SBA Communications
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sbny: # Signature Bank
+    name_pattern:
+      - Signature Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sbux: # Starbucks
+    name_pattern:
+      - Starbucks
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  scg: # SCANA
+    name_pattern:
+      - SCANA
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  schw: # Charles Schwab Corporation
+    name_pattern:
+      - Charles Schwab
+      - Schwab
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sedg: # SolarEdge
+    name_pattern:
+      - SolarEdge
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  see: # Sealed Air
+    name_pattern:
+      - Sealed Air
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  shw: # Sherwin-Williams
+    name_pattern:
+      - Sherwin-Williams
+      - Sherwin Williams
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sivb: # SVB Financial Group
+    name_pattern:
+      - Silicon Valley Bank
+      - SVB
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sjm: # J.M. Smucker Company (The)
+    name_pattern:
+      - J.M. 
+      - Smucker
+      - Smuckers
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  slb: # Schlumberger
+    name_pattern:
+      - Schlumberger
+      - SLB
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  slg: # SL Green Realty
+    name_pattern:
+      - SL Green
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  smci: # Supermicro
+    name_pattern:
+      - Supermicro
+      - Super Micro
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sna: # Snap-on
+    name_pattern:
+      - Snap-on
+      - Snap on
+      - Snapon
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  snps: # Synopsys
+    name_pattern:
+      - Synopsys
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  so: # Southern Company
+    name_pattern:
+      - Southern Company
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  solv: # Solventum
+    name_pattern:
+      - Solventum
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  spg: # Simon Property Group
+    name_pattern:
+      - Simon
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  spgi: # S&P Global
+    name_pattern:
+      - S&P
+      - Standard & Poor's
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sre: # Sempra
+    name_pattern:
+      - Sempra
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ste: # Steris
+    name_pattern:
+      - Steris
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sti: # SunTrust Banks
+    name_pattern:
+      - SunTrust
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  stld: # Steel Dynamics
+    name_pattern:
+      - Steel Dynamics
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  stt: # State Street Corporation
+    name_pattern:
+      - State Street
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  stx: # Seagate Technology
+    name_pattern:
+      - Seagate
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  stz: # Constellation Brands
+    name_pattern:
+      - Constellation Brands
+      - Corona # brand
+      - Modelo # brand
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  sw: # Smurfit WestRock
+    name_pattern:
+      - Smurfit WestRock
+      - WestRock # former component
+      - Smurfit Kappa # former component
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  swk: # Stanley Black & Decker
+    name_pattern:
+      - Stanley Black & Decker
+      - Stanley Black and Decker
+      - Black & Decker
+      - Stanley
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  swks: # Skyworks Solutions
+    name_pattern:
+      - Skyworks
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  syf: # Synchrony Financial
+    name_pattern:
+      - Synchrony
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  syk: # Stryker Corporation
+    name_pattern:
+      - Stryker
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  syy: # Sysco
+    name_pattern:
+      - Sysco
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

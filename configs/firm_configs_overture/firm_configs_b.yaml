@@ -1,0 +1,317 @@
+# Info specific to each firm
+firm_info:
+      
+  ba:
+    name_pattern: 
+      - Boeing
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    exclusions:
+      name: []   # Only common exclusions
+
+  bac: # Bank of America
+    name_pattern: 
+      - Bank of America
+      - BofA
+      - Merrill Lynch # wealth management subsidiary
+      - Merrill Edge # online investing
+      - U.S. Trust # private wealth management
+    industry: 
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ball: # Ball Corporation
+    name_pattern:
+      - Ball Corporation
+      #- Ball
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bax: # Baxter International
+    name_pattern:
+      - Baxter
+      #- Baxter International
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bbwi: # Bath & Body Works, Inc.
+    name_pattern:
+      - Bath & Body Works
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bby: # Best Buy
+    name_pattern:
+      - Best Buy
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bdx: # Becton Dickinson
+    name_pattern:
+      - Becton Dickinson
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ben: # Franklin Resources
+    name_pattern:
+      - Franklin Resources
+      - Franklin Templeton
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bfb: # Brown–Forman
+    name_pattern:
+      - Brown-Forman
+      - Brown Forman
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bg: # Bunge Global
+    name_pattern:
+      - Bunge
+      #- Bunge Global
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bhf: # Brighthouse Financial
+    name_pattern:
+      #- Brighthouse Financial
+      - Brighthouse
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  biib: # Biogen
+    name_pattern:
+      - Biogen
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bio: # Bio-Rad Laboratories
+    name_pattern:
+      - Bio-Rad
+      #- Bio-Rad Laboratories
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bk: # BNY Mellon
+    name_pattern:
+      - BNY Mellon
+      - Bank of New York Mellon
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bkng: # Booking Holdings
+    name_pattern:
+      - Booking Holdings
+      - Booking.com
+      - Priceline
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bkr: # Baker Hughes
+    name_pattern:
+      - Baker Hughes
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bldr: # Builders FirstSource
+    name_pattern:
+      - Builders FirstSource
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  blk: # BlackRock
+    name_pattern:
+      - BlackRock
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bms: # Bemis
+    name_pattern:
+      - Bemis
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bmy: # Bristol Myers Squibb
+    name_pattern:
+      - Bristol Myers Squibb
+      - Bristol-Myers Squibb
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  br: # Broadridge Financial Solutions
+    name_pattern:
+      - Broadridge
+      #- Broadridge Financial
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  brkb: # Berkshire Hathaway
+    name_pattern:
+      - Berkshire Hathaway
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bro: # Brown & Brown
+    name_pattern:
+      - Brown & Brown
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bsx: # Boston Scientific
+    name_pattern:
+      - Boston Scientific
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bwa: # BorgWarner
+    name_pattern:
+      - BorgWarner
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bx: # Blackstone Inc.
+    name_pattern:
+      - Blackstone
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  bxp: # BXP, Inc.
+    name_pattern:
+      - BXP
+      - Boston Properties
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

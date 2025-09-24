@@ -1,0 +1,23 @@
+# Info specific to each firm
+firm_info:
+  qcom: # Qualcomm
+    name_pattern:
+      - Qualcomm
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  qrvo: # Qorvo
+    name_pattern:
+      - Qorvo
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

@@ -1,0 +1,235 @@
+# Info specific to each firm
+firm_info:
+  wab: # Wabtec
+    name_pattern:
+      - Wabtec
+      - Westinghouse Air Brake Technologies # full name
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wat: # Waters Corporation
+    name_pattern:
+      - Waters
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wba: # Walgreens Boots Alliance
+    name_pattern:
+      - Walgreens
+      - Boots # subsidiary
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wbd: # Warner Bros. Discovery
+    name_pattern:
+      - Warner Bros. Discovery
+      - Warner Bros Discovery
+      - Warner Brothers Discovery
+      - HBO # subsidiary
+      - CNN # subsidiary
+      - Discovery # former component
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wcg: # WellCare
+    name_pattern:
+      - WellCare
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wdc: # Western Digital
+    name_pattern:
+      - Western Digital
+      - WD # brand
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wec: # WEC Energy Group
+    name_pattern:
+      - WEC Energy Group
+      - Wisconsin Electric Power # subsidiary
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  well: # Welltower
+    name_pattern:
+      - Welltower
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wfc: # Wells Fargo
+    name_pattern:
+      - Wells Fargo
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  whr: # Whirlpool Corporation
+    name_pattern:
+      - Whirlpool
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wlk: # Westlake
+    name_pattern:
+      - Westlake
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wm: # Waste Management
+    name_pattern:
+      - Waste Management
+      - WM
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wmb: # Williams Companies
+    name_pattern:
+      - Williams
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wmt: # Walmart
+    name_pattern:
+      - Walmart
+      - Wal-Mart
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wrb: # W. R. Berkley Corporation
+    name_pattern:
+      - W. R. Berkley
+      - W R Berkley
+      - WR Berkley
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wst: # West Pharmaceutical Services
+    name_pattern:
+      - West Pharmaceutical
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wtw: # Willis Towers Watson
+    name_pattern:
+      - Willis Towers
+      - WTW
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wu: # Western Union
+    name_pattern:
+      - Western Union
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wy: # Weyerhaeuser
+    name_pattern:
+      - Weyerhaeuser
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  wynn: # Wynn Resorts
+    name_pattern:
+      - Wynn
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

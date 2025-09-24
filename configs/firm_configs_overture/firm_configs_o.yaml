@@ -1,0 +1,125 @@
+# Info specific to each firm
+firm_info:
+  o: # Realty Income
+    name_pattern:
+      - Realty Income
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  odfl: # Old Dominion
+    name_pattern:
+      - Old Dominion
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ogn: # Organon & Co.
+    name_pattern:
+      - Organon
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  oke: # ONEOK
+    name_pattern:
+      - ONEOK
+      - One OK
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  omc: # Omnicom Group
+    name_pattern:
+      - Omnicom
+      - BBDO # subsidiary agency
+      - DDB # subsidiary agency
+      - TBWA # subsidiary agency
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  "on": # ON Semiconductor
+    name_pattern:
+      - ON Semiconductor
+      - ON Semi
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  orcl: # Oracle Corporation
+    name_pattern:
+      - Oracle
+      - NetSuite # acquired by Oracle in 2016
+      - Sun Microsystems # acquired by Oracle in 2010
+      - Textura # acquired by Oracle. It was not included in my first processing and popped up in the filtered data - so offices associated with it might be incomplete in the resulted data
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name:
+        - Cerner # acquired by Oracle in 2022 delisted from the NASDAQ stock exchange, but since the period of interest spans before 2020, I handle the two firms separately
+      primary_category:
+        - real_estate_agent
+        - real_estate_service
+        - real_estate
+
+  orly: # O'Reilly Auto Parts
+    name_pattern:
+      - O'Reilly
+      - OReilly
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  otis: # Otis Worldwide
+    name_pattern:
+      - Otis
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  oxy: # Occidental Petroleum
+    name_pattern:
+      - Occidental
+      - Oxy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

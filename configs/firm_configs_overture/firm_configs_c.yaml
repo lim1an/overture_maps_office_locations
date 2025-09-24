@@ -1,0 +1,695 @@
+# Info specific to each firm
+firm_info:
+
+  c: # Citigroup
+    name_pattern:
+      - Citigroup
+      - Citibank
+      - Citi # This will include Citi Bank into the data
+      - Citicorp
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cag: # Conagra Brands
+    name_pattern:
+      - Conagra # Conagra Brands, Foods, etc.
+      - Con Agra
+      - Con-Agra
+    industry:
+      - manufacturing
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cah: # Cardinal Health
+    name_pattern:
+      - Cardinal Health
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  carr: # Carrier Global
+    name_pattern:
+      - Carrier # Corp offices are named as Carrier so being restrained to Carrier Golbal is not a good idea
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name:
+        - Carrier Enterprise # a joint venture between Watsco and Carrier, primarily focused on distributing Carrier and Bryant HVAC products
+      primary_category: []
+
+  cb: # Chubb Limited
+    name_pattern:
+      - Chubb
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cboe: # Cboe Global Markets
+    name_pattern:
+      - Cboe Global Markets
+      - CBOE
+      - Chicago Board Options Exchange
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cbre: # CBRE Group
+    name_pattern:
+      - CBRE
+      - Coldwell Banker Richard Ellis
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cci: # Crown Castle
+    name_pattern:
+      - Crown Castle
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ccl: # Carnival
+    name_pattern:
+      - Carnival Cruise Line
+      - Carnival Corporation
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cdns: # Cadence Design Systems
+    name_pattern:
+      - Cadence Design Systems # Cadence a common name
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cdw: # CDW
+    name_pattern:
+      - CDW
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ce: # Celanese
+    name_pattern:
+      - Celanese
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ceg: # Constellation Energy
+    name_pattern:
+      - Constellation
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  celg: # Celgene
+    name_pattern:
+      - Celgene
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cern: # Cerner
+  # Oracle acquired Cerner Corporation in June 2022. 
+  # Cerner Corporation was a leading provider of digital information systems used within hospitals and health systems 
+  # to enable medical professionals to deliver better healthcare to individual patients and communities.
+    name_pattern:
+      - Cerner
+    industry:
+      - pharmaceutical
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cat: # Caterpillar
+    name_pattern:
+      - Caterpillar
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cf: # CF Industries
+    name_pattern:
+      - CF Industries
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cfg: # Citizens Financial Group
+    name_pattern:
+      - Citizens Financial
+      - Citizens Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  chd: # Church & Dwight
+    name_pattern:
+      - Church & Dwight
+      - Church and Dwight
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  chrw: # C.H. Robinson
+    name_pattern:
+      - C.H. Robinson
+      - CH Robinson
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  chtr: # Charter Communications
+    name_pattern:
+      - Charter Communications
+      - Spectrum # Charter's consumer brand
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ci: # Cigna
+    name_pattern:
+      - Cigna
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cinf: # Cincinnati Financial
+    name_pattern:
+      - Cincinnati Financial
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cl: # Colgate-Palmolive
+    name_pattern:
+      - Colgate-Palmolive
+      - Colgate
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  clx: # Clorox
+    name_pattern:
+      - Clorox
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cma: # Comerica
+    name_pattern:
+      - Comerica
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cmcsa: # Comcast
+    name_pattern:
+      - Comcast
+      - NBCUniversal # subsidiary
+      - Xfinity # consumer brand
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cme: # CME Group
+    name_pattern:
+      - CME Group
+      - Chicago Mercantile Exchange
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cmg: # Chipotle Mexican Grill
+    name_pattern:
+      - Chipotle # It seems that except for its HQs, other offices are only named as Chipotle, so restraining to Chipotle Mexican Grill might not be a good idea
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cmi: # Cummins
+    name_pattern:
+      - Cummins
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cms: # CMS Energy
+    name_pattern:
+      - CMS Energy
+      - Consumers Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cnc: # Centene Corporation
+    name_pattern:
+      - Centene
+    industry:
+      - financial_service
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cnp: # CenterPoint Energy
+    name_pattern:
+      - CenterPoint Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cof: # Capital One
+    name_pattern:
+      - Capital One
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  coo: # Cooper Companies (The)
+    name_pattern:
+      - Cooper Companies
+      - CooperCompanies
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cop:
+    name_pattern:
+      - ConocoPhillips
+      - CONOCO PHILLIPS # CONOCO only introduces too many gas stations and random stuff
+    industry:
+      - energy
+
+  cor: # Cencora
+    name_pattern:
+      - Cencora
+      - AmerisourceBergen # former name
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cost: # Costco
+    name_pattern:
+      - Costco
+      - Costco Wholesale
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  coty: # Coty
+    name_pattern:
+      - Coty
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cpay: # Corpay
+    name_pattern:
+      - Corpay
+      - FLEETCOR # former name
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cpb: # Campbell Soup Company
+    name_pattern:
+      - Campbell Soup
+      - Campbell's
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cpri: # Capri Holdings
+    name_pattern:
+      - Capri Holdings
+      - Michael Kors # subsidiary
+      - Versace # subsidiary
+      - Jimmy Choo # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cprt: # Copart
+    name_pattern:
+      - Copart
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cpt: # Camden Property Trust
+    name_pattern:
+      - Camden Property Trust
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  crl: # Charles River Laboratories
+    name_pattern:
+      - Charles River
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name:
+        - Charles River Associates
+      primary_category: []
+
+  crm: # Salesforce
+    name_pattern:
+      - Salesforce
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  crwd: # CrowdStrike
+    name_pattern:
+      - CrowdStrike
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  csco: # Cisco
+    name_pattern:
+      - Cisco
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  csgp: # CoStar Group
+    name_pattern:
+      - CoStar
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  csx: # CSX Corporation
+    name_pattern:
+      - CSX
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ctas: # Cintas
+    name_pattern:
+      - Cintas
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ctlt: # Catalent
+    name_pattern:
+      - Catalent
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ctra: # Coterra
+    name_pattern:
+      - Coterra
+      - Cabot Oil & Gas # former name
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ctsh: # Cognizant
+    name_pattern:
+      - Cognizant
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ctva: # Corteva
+    name_pattern:
+      - Corteva
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ctxs: # Citrix Systems
+    name_pattern:
+      - Citrix
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cvs: # CVS Health
+    name_pattern:
+      - CVS
+      - Aetna # subsidiary
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cvx: # Chevron Corporation
+    name_pattern:
+      - Chevron
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  cxo: # Concho Resources
+    name_pattern:
+      - Concho Resources
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  czr: # Caesars Entertainment
+    name_pattern:
+      - Caesars
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+

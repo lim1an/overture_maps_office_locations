@@ -1,0 +1,146 @@
+# Info specific to each firm
+firm_info:
+  uaa: # Under Armour
+    name_pattern:
+      - Under Armour
+      - UnderArmour
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ual: # United Airlines Holdings
+    name_pattern:
+      - United Airlines
+    industry:
+      - retail
+    office_categories:
+      - airlines
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  uber: # Uber
+    name_pattern:
+      - Uber
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  udr: # UDR, Inc.
+    name_pattern:
+      - UDR
+      - United Dominion Realty # former name
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  uhs: # Universal Health Services
+    name_pattern:
+      - Universal Health Services
+      - UHS
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ulta: # Ulta Beauty
+    name_pattern:
+      - Ulta Beauty # Offices are mostly named after Ulta Beauty
+      #- Ulta
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  unh: # UnitedHealth Group
+    name_pattern:
+      - UnitedHealthcare # subsidiary
+      - United Health
+      - Optum # subsidiary
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  unm: # Unum
+    name_pattern:
+      - Unum
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  unp: # Union Pacific Corporation
+    name_pattern:
+      - Union Pacific
+      - UP
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ups: # United Parcel Service
+    name_pattern:
+      - United Parcel Service
+      - UPS
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  uri: # United Rentals
+    name_pattern:
+      - United Rentals
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  usb: # U.S. Bancorp
+    name_pattern:
+      - U.S. Bancorp
+      - US Bancorp
+      - U.S. Bank
+      - US Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

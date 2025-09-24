@@ -1,0 +1,298 @@
+# Info specific to each firm
+firm_info:
+  nbl: # Noble Energy
+    name_pattern:
+      - Noble Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nclh: # Norwegian Cruise Line Holdings
+    name_pattern:
+      - Norwegian Cruise Line
+      - NCL
+      - Oceania Cruises # subsidiary
+      - Regent Seven Seas # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ndaq: # Nasdaq, Inc.
+    name_pattern:
+      - Nasdaq
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ndsn: # Nordson Corporation
+    name_pattern:
+      - Nordson
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nee: # NextEra Energy
+    name_pattern:
+      - NextEra Energy
+      - Florida Power & Light # subsidiary
+      - FPL # subsidiary
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nem: # Newmont
+    name_pattern:
+      - Newmont
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nflx: # Netflix
+    name_pattern:
+      - Netflix
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nfx: # Newfield Exploration
+    name_pattern:
+      - Newfield Exploration
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ni: # NiSource
+    name_pattern:
+      - NiSource
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nke: # Nike, Inc.
+    name_pattern:
+      - Nike
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nktr: # Nektar Therapeutics
+    name_pattern:
+      - Nektar Therapeutics
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nlsn: # Nielsen Holdings
+    name_pattern:
+      - Nielsen
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  noc: # Northrop Grumman
+    name_pattern:
+      - Northrop Grumman
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nov: # NOV
+    name_pattern:
+      - NOV
+      - National Oilwell Varco # former name
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  now: # ServiceNow
+    name_pattern:
+      - ServiceNow
+      - Service Now
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nrg: # NRG Energy Inc.
+    name_pattern:
+      - NRG
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nsc: # Norfolk Southern Railway
+    name_pattern:
+      - Norfolk Southern
+      - NS
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ntap: # NetApp
+    name_pattern:
+      - NetApp
+      - Network Appliance # former name
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ntrs: # Northern Trust
+    name_pattern:
+      - Northern Trust
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nue: # Nucor
+    name_pattern:
+      - Nucor
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nvda: # Nvidia
+    name_pattern:
+      - Nvidia
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nvr: # NVR, Inc.
+    name_pattern:
+      - NVR
+      - Ryan Homes # subsidiary brand
+      - NVHomes # subsidiary brand
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nwl: # Newell Brands
+    name_pattern:
+      - Newell Brands
+      - Newell Rubbermaid # former name
+      - Rubbermaid # subsidiary brand
+      - Sharpie # subsidiary brand
+      - Paper Mate # subsidiary brand
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nwsa: # News Corp
+    name_pattern:
+      - News Corp
+      - News Corporation
+      - The Wall Street Journal # subsidiary
+      - The Times # subsidiary
+      - New York Post # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  nxpi: # NXP Semiconductors
+    name_pattern:
+      - NXP
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

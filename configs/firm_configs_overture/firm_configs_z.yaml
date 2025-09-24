@@ -1,0 +1,46 @@
+# Info specific to each firm
+firm_info:
+  zbh: # Zimmer Biomet
+    name_pattern:
+      - Zimmer
+      - Biomet
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  zbra: # Zebra Technologies
+    name_pattern:
+      - Zebra
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  zion: # Zions Bancorporation
+    name_pattern:
+      - Zions
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  zts: # Zoetis
+    name_pattern:
+      - Zoetis
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

@@ -1,0 +1,206 @@
+# Info specific to each firm
+firm_info:
+  rcl: # Royal Caribbean Group
+    name_pattern:
+      - Royal Caribbean
+      - Celebrity Cruises # subsidiary
+      - Silversea # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  reg: # Regency Centers
+    name_pattern:
+      - Regency Centers
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  regn: # Regeneron Pharmaceuticals
+    name_pattern:
+      - Regeneron
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rf: # Regions Financial Corporation
+    name_pattern:
+      - Regions Financial
+      - Regions Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rhi: # Robert Half
+    name_pattern:
+      - Robert Half
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rht: # Red Hat
+    name_pattern:
+      - Red Hat
+      - RedHat
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rjf: # Raymond James Financial
+    name_pattern:
+      - Raymond James
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rl: # Ralph Lauren Corporation
+    name_pattern:
+      - Ralph Lauren
+      - Polo # brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rmd: # ResMed
+    name_pattern:
+      - ResMed
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rok: # Rockwell Automation
+    name_pattern:
+      - Rockwell
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rol: # Rollins, Inc.
+    name_pattern:
+      - Rollins
+      - Orkin # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rop: # Roper Technologies
+    name_pattern:
+      - Roper
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rost: # Ross Stores
+    name_pattern:
+      - Ross Stores
+      - Ross Dress for Less # brand
+      - dd's DISCOUNTS # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rsg: # Republic Services
+    name_pattern:
+      - Republic Services
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rtn: # Raytheon Company
+    name_pattern:
+      - Raytheon
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rtx: # RTX Corporation
+    name_pattern:
+      - RTX
+      - Raytheon Technologies # former name
+      - Pratt & Whitney # subsidiary
+      - Collins Aerospace # subsidiary
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  rvty: # Revvity
+    name_pattern:
+      - Revvity
+      - PerkinElmer # former name
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

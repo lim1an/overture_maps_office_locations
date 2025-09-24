@@ -1,0 +1,435 @@
+# Info specific to each firm
+firm_info:
+  panw: # Palo Alto Networks
+    name_pattern:
+      - Palo Alto Networks
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  para: # Paramount Global
+    name_pattern:
+      - Paramount
+      - ViacomCBS # former name
+      - CBS # subsidiary
+      - MTV # subsidiary
+      - Nickelodeon # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  payc: # Paycom
+    name_pattern:
+      - Paycom
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  payx: # Paychex
+    name_pattern:
+      - Paychex
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pbct: # People's United Financial
+    name_pattern:
+      - People's United Financial
+      - People's United Bank
+      - Peoples United Financial
+      - Peoples United Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pcar: # Paccar
+    name_pattern:
+      - Paccar
+      - Peterbilt # subsidiary
+      - Kenworth # subsidiary
+      - DAF # subsidiary
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pcg: # PG&E Corporation / Pacific Gas & Electric Co.
+    name_pattern:
+      - PG&E Corporation
+      - Pacific Gas & Electric
+      - PG&E
+      - PGE
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  peg: # Public Service Enterprise Group
+    name_pattern:
+      - Public Service Enterprise Group
+      - PSEG
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  penn: # Penn Entertainment
+    name_pattern:
+      - Penn Entertainment
+      - Penn National Gaming # former name
+      - Barstool Sportsbook # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pep: # PepsiCo
+    name_pattern:
+      - PepsiCo
+      - Pepsi-Cola
+      - Pepsi
+      - Frito-Lay # subsidiary
+      - Quaker Oats # subsidiary
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pfe: # Pfizer
+    name_pattern:
+      - Pfizer
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pfg: # Principal Financial Group
+    name_pattern:
+      - Principal Financial
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pg: # Proctor & Gamble
+    name_pattern:
+      - Proctor & Gamble
+      - Procter & Gamble
+      - P&G
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pgr: # Progressive Corporation
+    name_pattern:
+      - Progressive
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ph: # Parker Hannifin
+    name_pattern:
+      - Parker # Many places are only named after Parker - they might not be offices though, but I will just keep them all first
+      #- Parker Hannifin
+      #- Parker-Hannifin
+      #- Parker Appliance Company # old name
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  phm: # PulteGroup
+    name_pattern:
+      - PulteGroup
+      - Pulte Group
+      - Pulte Homes
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pkg: # Packaging Corporation of America
+    name_pattern:
+      - Packaging Corporation of America
+      - PCA
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pld: # Prologis
+    name_pattern:
+      - Prologis
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pltr: # Palantir Technologies
+    name_pattern:
+      - Palantir
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pm: # Philip Morris International
+    name_pattern:
+      - Philip Morris
+      - PMI
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pnc: # PNC Financial Services
+    name_pattern:
+      - PNC Financial Services
+      - PNC Bank
+      - PNC
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pnr: # Pentair
+    name_pattern:
+      - Pentair
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pnw: # Pinnacle West
+    name_pattern:
+      - Pinnacle West
+      - Arizona Public Service # subsidiary
+      - APS # subsidiary
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  podd: # Insulet Corporation
+    name_pattern:
+      - Insulet
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pool: # Pool Corporation
+    name_pattern:
+      - Pool Corporation
+      - Pool Corp
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ppg: # PPG Industries
+    name_pattern:
+      - PPG
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ppl: # PPL Corporation
+    name_pattern:
+      - PPL
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  prgo: # Perrigo
+    name_pattern:
+      - Perrigo
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pru: # Prudential Financial
+    name_pattern:
+      - Prudential
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  psa: # Public Storage
+    name_pattern:
+      - Public Storage
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  psx: # Phillips 66
+    name_pattern:
+      - Phillips 66
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ptc: # PTC Inc.
+    name_pattern:
+      - PTC
+      - Parametric Technology Corporation # former name
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pvh: # PVH
+    name_pattern:
+      - PVH
+      - Calvin Klein # subsidiary brand
+      - Tommy Hilfiger # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pwr: # Quanta Services
+    name_pattern:
+      - Quanta Services
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pxd: # Pioneer Natural Resources
+    name_pattern:
+      - Pioneer
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  pypl: # PayPal
+    name_pattern:
+      - PayPal
+      - Venmo # subsidiary
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

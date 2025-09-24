@@ -1,0 +1,367 @@
+# Info specific to each firm
+firm_info:
+  t: # AT&T
+    name_pattern:
+      - AT&T
+      - American Telephone and Telegraph
+      - AT & T
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tap: # Molson Coors Beverage Company
+    name_pattern:
+      - Coors
+      - Molson
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tdg: # TransDigm Group
+    name_pattern:
+      - TransDigm
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tdy: # Teledyne Technologies
+    name_pattern:
+      - Teledyne
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tech: # Bio-Techne
+    name_pattern:
+      - Bio-Techne
+      - Bio Techne
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tel: # TE Connectivity
+    name_pattern:
+      - TE Connectivity
+      - Tyco Electronics # former name
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ter: # Teradyne
+    name_pattern:
+      - Teradyne
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tfc: # Truist Financial. 
+  # STI (SunTrust Banks) was acquired by BB&T Corporation (BBT) in 2019, 
+  # and the combined entity was renamed Truist Financial Corporation (TFC)
+  # All three are kept separately in the list
+    name_pattern:
+      - Truist
+      - BB&T # predecessor bank
+      - SunTrust # predecessor bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tfx: # Teleflex
+    name_pattern:
+      - Teleflex
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tgt: # Target Corporation
+    name_pattern:
+      - Target
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tif: # Tiffany & Co
+    name_pattern:
+      - Tiffany
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tjx: # TJX Companies
+    name_pattern:
+      - TJX
+      - T.J. Maxx # subsidiary
+      - Marshalls # subsidiary
+      - HomeGoods # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tmo: # Thermo Fisher Scientific
+    name_pattern:
+      - Thermo Fisher
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tmus: # T-Mobile US
+    name_pattern:
+      - T-Mobile
+      - T Mobile
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tpr: # Tapestry, Inc.
+    name_pattern:
+      - Tapestry
+      - Coach # subsidiary brand
+      - Kate Spade # subsidiary brand
+      - Stuart Weitzman # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  trgp: # Targa Resources
+    name_pattern:
+      - Targa Resources
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  trip: # TripAdvisor
+    name_pattern:
+      - TripAdvisor
+      - Trip Advisor
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  trmb: # Trimble Inc.
+    name_pattern:
+      - Trimble
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  trow: # T. Rowe Price
+    name_pattern:
+      - T. Rowe Price
+      - T Rowe Price
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  trv: # Travelers Companies (The)
+    name_pattern:
+      - Travelers # Offices are only named after Traverlers most of the time
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tsco: # Tractor Supply
+    name_pattern:
+      - Tractor Supply
+      - TSC
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tsla: # Tesla
+    name_pattern:
+      - Tesla
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tsn: # Tyson Foods
+    name_pattern:
+      - Tyson
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tss: # TSYS
+    name_pattern:
+      - TSYS
+      - Total System Services
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tt: # Trane Technologies
+    name_pattern:
+      - Trane
+      - Ingersoll Rand # former name
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ttwo: # Take-Two Interactive
+    name_pattern:
+      - Take-Two Interactive
+      - Take Two Interactive
+      - Rockstar Games # subsidiary
+      - 2K Games # subsidiary
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  twtr: # Twitter
+    name_pattern:
+      - Twitter
+      - X # current name
+    industry:
+      - technology
+    office_categories: []
+    business_categories:
+      - social_media_company
+    exclusions:
+      name: []
+      primary_category: []
+
+  txn: # Texas Instruments
+    name_pattern:
+      - Texas Instruments
+      - TI
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  txt: # Textron
+    name_pattern:
+      - Textron
+      - Bell Helicopter # subsidiary
+      - Cessna # subsidiary
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  tyl: # Tyler Technologies
+    name_pattern:
+      - Tyler
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

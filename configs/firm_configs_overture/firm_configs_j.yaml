@@ -1,0 +1,126 @@
+# Info specific to each firm
+firm_info:
+  j: # Jacobs Solutions
+    name_pattern:
+      - Jacobs Solutions
+      #- Jacobs # Too common
+      - Jacobs Engineering # former name
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jbht: # J.B. Hunt
+    name_pattern:
+      - J.B. Hunt
+      - JB Hunt
+      - J. B. Hunt
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jbl: # Jabil
+    name_pattern:
+      - Jabil
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jci: # Johnson Controls
+    name_pattern:
+      - Johnson Controls
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jef: # Jefferies Financial Group
+    name_pattern:
+      #- Jefferies Financial Group
+      - Jefferies # Google Maps search results show that this is not that common
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jkhy: # Jack Henry & Associates
+    name_pattern:
+      #- Jack Henry & Associates
+      - Jack Henry
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jnj: # Johnson & Johnson
+    name_pattern:
+      - Johnson & Johnson
+      - Johnson and Johnson
+      - J&J
+      - Janssen # pharmaceutical subsidiary
+      - Ethicon # medical devices subsidiary
+      - DePuy # medical devices subsidiary
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jnpr: # Juniper Networks
+    name_pattern:
+      - Juniper Networks
+      #- Juniper # Too common
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jpm: # JPMorgan Chase
+    name_pattern:
+      - JPMorgan
+      - JP Morgan
+      - Chase
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  jwn: # Nordstrom
+    name_pattern:
+      - Nordstrom
+      #- Nordstrom Rack # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

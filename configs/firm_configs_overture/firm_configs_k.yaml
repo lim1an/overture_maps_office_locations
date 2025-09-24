@@ -1,0 +1,193 @@
+# Info specific to each firm
+firm_info:
+  k: # Kellanova
+    name_pattern:
+      - Kellanova
+      - Kellogg Company # former name before spin-off
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kdp: # Keurig Dr Pepper
+    name_pattern:
+      - Keurig
+      - DrPepper
+      - Dr Pepper
+      - Dr. Pepper
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  key: # KeyCorp
+    name_pattern:
+      - KeyCorp
+      - KeyBank
+      - Key Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  keys: # Keysight Technologies
+    name_pattern:
+      #- Keysight Technologies # Keysight not common
+      - Keysight # some places named after Keysight only
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  khc: # Kraft Heinz
+    name_pattern:
+      - Kraft Heinz
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kim: # Kimco Realty
+    name_pattern:
+      #- Kimco Realty # Some places are only named after Kimco
+      - Kimco
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: # Below are the unrelated places pop up when I search Kimco on Google
+        - Distributing 
+        - Green
+        - Staffing Services
+      primary_category: []
+
+  kkr: # KKR
+    name_pattern:
+      - KKR
+      - Kohlberg Kravis Roberts
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  klac: # KLA Corporation
+    name_pattern:
+      - KLA Corporation
+      - KLA-Tencor # former name
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kmb: # Kimberly-Clark
+    name_pattern:
+      - Kimberly-Clark
+      - Kimberly Clark
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kmi: # Kinder Morgan
+    name_pattern:
+      - Kinder Morgan
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kmx: # CarMax
+    name_pattern:
+      - CarMax
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ko: # Coca-Cola Company (The)
+    name_pattern:
+      - Coca-Cola
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kr: # Kroger
+    name_pattern:
+      - Kroger
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kss: # Kohl's
+    name_pattern:
+      - Kohl's
+      - Kohls
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ksu: # Kansas City Southern
+    name_pattern:
+      - Kansas City Southern
+      - KCS
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  kvue: # Kenvue
+    name_pattern:
+      - Kenvue
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

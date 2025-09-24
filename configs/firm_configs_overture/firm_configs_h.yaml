@@ -1,0 +1,303 @@
+# Info specific to each firm
+firm_info:
+  hal: # Halliburton
+    name_pattern:
+      - Halliburton
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  has: # Hasbro
+    name_pattern:
+      - Hasbro
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hban: # Huntington Bancshares
+    name_pattern:
+      - Huntington Bancshares
+      - Huntington Bank
+      - Huntington National Bank
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hbi: # Hanesbrands
+    name_pattern:
+      - Hanesbrands
+      - Hanes
+      - Champion # subsidiary brand
+      - Playtex # subsidiary brand
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hca: # HCA Healthcare
+    name_pattern:
+      #- HCA Healthcare
+      - HCA
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hd: # Home Depot (The)
+    name_pattern:
+      - Home Depot
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hes: # Hess Corporation
+    name_pattern:
+      - Hess Corporation
+      #- Hess # Too many unrelated hess places
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hfc: # HollyFrontier
+    name_pattern:
+      - HollyFrontier
+      - Holly Frontier
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hig: # Hartford (The)
+    name_pattern:
+      - Hartford
+      - The Hartford
+      - Hartford Financial
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hii: # Huntington Ingalls Industries
+    name_pattern:
+      - Huntington Ingalls
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hlt: # Hilton Worldwide
+    name_pattern:
+      - Hilton Worldwide
+      - Hilton
+      - Hampton Inn # subsidiary brand
+      - Embassy Suites # subsidiary brand
+      - DoubleTree # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hog: # Harley-Davidson
+    name_pattern:
+      - Harley-Davidson
+      - Harley Davidson
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  holx: # Hologic
+    name_pattern:
+      - Hologic
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hon: # Honeywell
+    name_pattern:
+      - Honeywell
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hp: # Helmerich & Payne
+    name_pattern:
+      - Helmerich & Payne
+      - Helmerich and Payne
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hpe: # Hewlett Packard Enterprise
+    name_pattern:
+      - Hewlett Packard Enterprise
+      - HPE
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hpq: # HP Inc.
+    name_pattern:
+      - HP
+      - Hewlett-Packard
+      - HPE # Hewlett Packard Enterprise
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hrb: # H&R Block
+    name_pattern:
+      - H&R Block
+      - H & R Block
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hrl: # Hormel Foods
+    name_pattern:
+      - Hormel # Should be a less common founder's name and many offices are named only after Hormel not Hormel Foods
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hsic: # Henry Schein
+    name_pattern:
+      - Henry Schein
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hst: # Host Hotels & Resorts
+    name_pattern:
+      - Host Hotels & Resorts
+      - Host Hotels
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hsy: # Hershey Company (The)
+    name_pattern:
+      - Hershey # Hershey itself introduces a lot retail places but I think we will be able to differentiate
+    industry:
+      - manufacturing
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hubb: # Hubbell Incorporated
+    name_pattern:
+      #- Hubbell Incorporated # Most offices are named only after Hubbell
+      - Hubbell
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hum: # Humana
+    name_pattern:
+      - Humana
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  hwm: # Howmet Aerospace
+    name_pattern:
+      - Howmet Aerospace
+      - Arconic # former name
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

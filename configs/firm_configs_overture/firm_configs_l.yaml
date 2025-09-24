@@ -1,0 +1,249 @@
+# Info specific to each firm
+firm_info:
+  l: # Loews Corporation
+    name_pattern:
+      - Loews
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  ldos: # Leidos
+    name_pattern:
+      - Leidos
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  leg: # Leggett & Platt
+    name_pattern:
+      - Leggett & Platt
+      - Leggett and Platt
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  len: # Lennar
+    name_pattern:
+      - Lennar
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lh: # LabCorp
+    name_pattern:
+      - Laboratory Corporation of America
+      - Labcorp
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lhx: # L3Harris
+#  lll: # L3 Technologies. LLL no longer exists as a trading symbol
+    name_pattern:
+      - L3Harris
+      - L3 Harris
+      - L3 Technologies
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lin: # Linde plc
+    name_pattern:
+      - Linde
+      - Praxair # merged company
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lkq: # LKQ Corporation
+    name_pattern:
+      - LKQ
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lly: # Lilly (Eli)
+    name_pattern:
+      - Eli Lilly
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lmt: # Lockheed Martin
+    name_pattern:
+      - Lockheed Martin
+    industry:
+      - manufacturing
+    office_categories:
+      - airlines
+      - aircraft_manufacturer
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lnc: # Lincoln National Corporation
+    name_pattern:
+      - Lincoln National
+      - Lincoln Financial
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lnt: # Alliant Energy
+    name_pattern:
+      - Alliant Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  low: # Lowe's
+    name_pattern:
+      - Lowe's
+      - Lowes
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lrcx: # Lam Research
+    name_pattern:
+      - Lam Research
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lulu: # Lululemon Athletica
+    name_pattern:
+      - Lululemon
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lumn: # Lumen Technologies
+    name_pattern:
+      - Lumen
+      - CenturyLink # former name
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  luv: # Southwest Airlines
+    name_pattern:
+      - Southwest
+    industry:
+      - retail
+    office_categories:
+      - airlines
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lvs: # Las Vegas Sands
+    name_pattern:
+      - Las Vegas Sands
+      - LVS
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lw: # Lamb Weston
+    name_pattern:
+      - Lamb Weston
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lyb: # LyondellBasell
+    name_pattern:
+      - LyondellBasell
+      - Lyondell Basell
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  lyv: # Live Nation Entertainment
+    name_pattern:
+      - Live Nation
+      - Ticketmaster # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []

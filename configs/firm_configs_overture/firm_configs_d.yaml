@@ -1,0 +1,338 @@
+# Info specific to each firm
+firm_info:
+
+  d: # Dominion Energy
+    name_pattern:
+      - Dominion Energy # Dominion is a common name
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dal: # Delta Air Lines
+    name_pattern:
+      - Delta Air Lines # Delta is a common name
+      - Delta Airlines
+    industry:
+      - retail
+    office_categories:
+      - airlines
+      - airport_terminal
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  day: # Dayforce
+    name_pattern:
+      - Dayforce
+      - Ceridian # parent company
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dd: # DuPont
+    name_pattern:
+      - DuPont
+      - DU PONT
+      - DowDuPont # former combined entity. The symbol dwdp is no longer used
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  de: # Deere & Company
+    name_pattern:
+      - Deere & Company
+      - John Deere
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  deck: # Deckers Brands
+    name_pattern:
+      - Deckers Brands
+      - UGG # subsidiary brand
+      - HOKA # subsidiary brand
+      - Teva # subsidiary brand
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dell: # Dell Technologies
+    name_pattern:
+      - Dell
+      - EMC # acquired by Dell
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dfs: # Discover Financial
+    name_pattern:
+      - Discover Financial
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dg: # Dollar General
+    name_pattern:
+      - Dollar General
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dgx: # Quest Diagnostics
+    name_pattern:
+      - Quest
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dhi: # D. R. Horton
+    name_pattern:
+      - D. R. Horton
+      - DR Horton
+      - D.R. Horton
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dhr: # Danaher Corporation
+    name_pattern:
+      - Danaher
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dis: # Walt Disney Company (The)
+    name_pattern:
+      - Walt Disney Company
+      - Disney
+      - Walt Disney
+      - ABC # subsidiary
+      - ESPN # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name:
+        - DISNEY STORE
+      primary_category: []
+
+  dish: # Dish Network
+    name_pattern:
+      - Dish Network
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dlr: # Digital Realty
+    name_pattern:
+      - Digital Realty
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dltr: # Dollar Tree
+    name_pattern:
+      - Dollar Tree
+      - Family Dollar # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  doc: # Healthpeak Properties
+    name_pattern:
+      - Healthpeak Properties
+      - HCP # former name
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dov: # Dover Corporation
+    name_pattern:
+      - Dover Corporation
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dow: # Dow Inc.
+    name_pattern:
+      - Dow # This includes Dow Inc, DOW CHEMICAL, etc.
+    industry:
+      - manufacturing
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dpz: # Domino's
+    name_pattern:
+      - Domino's
+      - Dominos
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dre: # Duke Realty
+    name_pattern:
+      - Duke Realty
+    industry:
+      - financial_service
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dri: # Darden Restaurants
+    name_pattern:
+      - Darden Restaurants
+      - Olive Garden # subsidiary
+      - LongHorn Steakhouse # subsidiary
+      - Bahama Breeze # subsidiary
+      - Seasons 52 # subsidiary
+    industry:
+      - retail
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dte: # DTE Energy
+    name_pattern:
+      - DTE Energy
+      - Detroit Edison # subsidiary
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  duk: # Duke Energy
+    name_pattern:
+      - Duke Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dva: # DaVita
+    name_pattern:
+      - DaVita
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dvn: # Devon Energy
+    name_pattern:
+      - Devon Energy
+    industry:
+      - energy
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dxc: # DXC Technology
+    name_pattern:
+      - DXC Technology
+      - Computer Sciences Corporation # predecessor
+      - CSC # predecessor
+    industry:
+      - technology
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
+
+  dxcm: # Dexcom
+    name_pattern:
+      - Dexcom
+    industry:
+      - pharmaceutical
+    office_categories: []
+    business_categories: []
+    exclusions:
+      name: []
+      primary_category: []
